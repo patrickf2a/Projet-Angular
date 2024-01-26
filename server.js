@@ -4,9 +4,9 @@ let bodyParser = require('body-parser');
 let assignment = require('./routes/assignments');
 let user = require('./routes/user');
 
-let cors = require('cors');
+//let cors = require('cors');
 
-app.use(cors());
+//app.use(cors());
 
 
 let mongoose = require('mongoose');
