@@ -3,6 +3,10 @@ let app = express();
 let bodyParser = require('body-parser');
 let assignment = require('./routes/assignments');
 let user = require('./routes/user');
+let cors = require('cors');
+
+app.use(cors());
+
 
 let mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
