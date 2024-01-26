@@ -3,9 +3,10 @@ let app = express();
 let bodyParser = require('body-parser');
 let assignment = require('./routes/assignments');
 let user = require('./routes/user');
-let cors = require('cors');
 
-app.use(cors());
+//let cors = require('cors');
+
+//app.use(cors());
 
 
 let mongoose = require('mongoose');
@@ -61,10 +62,10 @@ app.route(prefix + '/assignments')
   .put(assignment.updateAssignment)
   .put(assignment.updateRendu)
 
-app.route(prefix + '/user')
+app.route(prefix + '/users')
     .post(user.createUser)
 
-app.route(prefix + '/user/authenticate')
+app.route(prefix + '/users/authenticate')
     .post(user.authenticateUser)
 
 app.route(prefix + '/users')
