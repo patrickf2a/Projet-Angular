@@ -65,7 +65,7 @@ app.route(prefix + '/assignments')
 app.route(prefix + '/user')
     .post(user.createUser)
 
-app.route(prefix + '/users')
+app.route(prefix + '/users/authenticate')
     .post(user.authenticateUser)
 
 app.route(prefix + '/users')
