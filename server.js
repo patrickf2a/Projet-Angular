@@ -7,9 +7,8 @@ let user = require('./routes/user');
 let cors = require('cors');
 
 app.use(cors({
-    origin: '*' // Ou '*' pour autoriser toutes les origines
+  origin: 'https://fernandes-brandi-application-front.onrender.com' // Ou '*' pour autoriser toutes les origines
 }));
-
 
 
 let mongoose = require('mongoose');
