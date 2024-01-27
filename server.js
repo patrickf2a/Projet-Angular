@@ -4,9 +4,12 @@ let bodyParser = require('body-parser');
 let assignment = require('./routes/assignments');
 let user = require('./routes/user');
 
-//let cors = require('cors');
+let cors = require('cors');
 
-//app.use(cors());
+app.use(cors({
+    origin: '*' // Ou '*' pour autoriser toutes les origines
+}));
+
 
 
 let mongoose = require('mongoose');
