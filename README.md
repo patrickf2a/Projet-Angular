@@ -2,9 +2,9 @@
 
 ## Liens du Projet
 
-Front-end GitHub: https://github.com/patrickf2a/assignment-app
-Backend en ligne: https://fernandes-brandi-application.onrender.com
-Frontend en ligne: https://fernandes-brandi-application-front.onrender.com
+- Front-end GitHub: https://github.com/patrickf2a/assignment-app
+- Backend en ligne: https://fernandes-brandi-application.onrender.com
+- Frontend en ligne: https://fernandes-brandi-application-front.onrender.com
 
 ## Auteurs
 
