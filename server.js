@@ -62,7 +62,7 @@ app.route(prefix + '/assignments')
   .put(assignment.updateAssignment)
   .put(assignment.updateRendu)
 
-app.route(prefix + '/users')
+app.route(prefix + '/user')
     .post(user.createUser)
 
 app.route(prefix + '/users)
